@@ -1,0 +1,8 @@
+{
+  "short_name": "Search Github Users using React",
+  "name": "Search Github Users using React",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
