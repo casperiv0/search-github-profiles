@@ -6,7 +6,7 @@ Simple react app to search github users
 
 - React Props
 - Axios
-- More MaterialUI
+- Styled Components
 
 ## Demo
 
