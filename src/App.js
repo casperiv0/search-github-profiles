@@ -23,7 +23,6 @@ class App extends Component {
       this.setState({
         mainData: res.data,
       });
-      console.log(this.state.mainData);
     });
 
     // Get Top 4 Repos
@@ -45,7 +44,6 @@ class App extends Component {
       this.setState({
         recentRepos: repos,
       });
-      console.log(this.state.recentRepos);
     });
   };
 
