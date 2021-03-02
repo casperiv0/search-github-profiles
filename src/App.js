@@ -32,10 +32,10 @@ class App extends Component {
       }
       const repos = res.data
         .sort((a, b) => {
-          if (a.created_at < b.created_at) {
+          if (a.updated_at < b.updated_at) {
             return 1;
           }
-          if (a.created_at > b.created_at) {
+          if (a.updated_at > b.updated_at) {
             return -1;
           }
           return 0;

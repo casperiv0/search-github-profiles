@@ -5,12 +5,12 @@ export const Container = styled.div`
   width: 100vw;
   display: flex;
   justify-content: center;
-`
+`;
 
 export const Main = styled.div`
   width: 1000px;
   max-width: 90%;
-`
+`;
 
 export const Form = styled.form`
   margin-top: 20px;
@@ -86,7 +86,6 @@ export const Row = styled.div`
 export const Box = styled.div`
   margin-top: 15px;
   padding: 10px;
-  background-color: #f2f2f2;
   color: #23292d;
   font-size: 1.2rem;
   border: 1px solid #f2f2f2;
@@ -99,7 +98,10 @@ export const Link = styled.a`
 `;
 
 export const RepoBox = styled.div`
-  margin-top: 15px;
+  margin-top: 1rem;
+  background-color: #f2f2f2;
+  padding: 1rem;
+  border-radius: 0.5rem;
 
   & p {
     margin-top: 5px: 
